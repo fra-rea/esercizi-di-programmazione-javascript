@@ -8,3 +8,20 @@
   
   http://www.imparareaprogrammare.it
 */
+
+
+var a = 1;
+var b = 2;
+var c = 3;
+var d = 4;
+var e = 5;
+
+var Somma = a+b+c+d+e;
+var Numeri = 5;
+var Media = 0;
+Media = Somma / Numeri;
+
+
+console.log('La media è ', Media)
+console.log('La somma è ', Somma)
+console.log('In totale ci sono ',Numeri, ' Numeri')

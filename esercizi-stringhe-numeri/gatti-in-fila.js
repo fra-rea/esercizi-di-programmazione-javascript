@@ -17,3 +17,17 @@
 
   http://www.imparareaprogrammare.it
 */
+
+
+var cats = 44
+var raws = 6
+
+var number_catRaws = Math.ceil(cats/raws)
+var cat_other = (raws*number_catRaws)-cats
+
+console.log(number_catRaws)
+console.log(cat_other)
+
+
+
+
