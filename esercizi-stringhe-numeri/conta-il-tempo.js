@@ -12,3 +12,21 @@
 
   http://www.imparareaprogrammare.it
 */
+
+
+var ts=52897
+var th=0;
+var tm=0;
+var h_other // porzioni di ora avanzate in secondi
+var m_other // porzioni di minuti avanzati in secondi
+
+th = Math.floor(ts/3600)
+
+h_other = ts-th*3600
+tm = Math.floor(h_other/60)
+m_other = h_other-tm*60
+ts = m_other
+
+console.log(th)
+console.log(tm)
+console.log(ts)

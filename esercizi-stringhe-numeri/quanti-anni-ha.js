@@ -11,3 +11,12 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var Birth_y=1982
+var today_y=2025
+var age = today_y-Birth_y
+var hundred_y=Birth_y+100
+var ETA_y=hundred_y-today_y
+
+console.log(age)
+console.log(ETA_y)
