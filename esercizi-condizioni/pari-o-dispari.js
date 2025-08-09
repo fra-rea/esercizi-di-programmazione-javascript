@@ -15,3 +15,22 @@
 
   http://www.imparareaprogrammare.it
 */
+var num_p_d=63
+var resto_p_d=2
+if (num_p_d%2 , 0) {
+  resto_p_d=0
+}
+else if (num_p_d%2, 1) {
+  resto_p_d=1
+}
+
+console.log(resto_p_d)
+
+if (resto_p_d=0) {
+  console.log("Il numero è pari")
+}
+else if (resto_p_d=1){
+
+
+  console.log("Il numero è disptari")
+}

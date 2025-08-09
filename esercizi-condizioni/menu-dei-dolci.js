@@ -21,3 +21,16 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var index = 0
+var menù =["Tiramisù", "Torta della nonna", "Cheescake alla nutella", "Macedonia"]
+var choise_q = prompt(`Scegli, inserisci il numero che leggi sul menù: 1. ${menù.at(0)}; 2. ${menù.at(1)}; 3. ${menù.at(2)}; 4. ${menù.at(3)}`)
+
+if (choise_q > 0, choise_q <= 4) {
+  console.log(`Hai scelto ${menù.at(choise_q -1)}`)
+} else {
+  console.log("Dolce non disponibile")
+}
+
+
+
